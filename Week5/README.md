@@ -1,33 +1,56 @@
-# Week 5: .NET Core and API Development
+# Week 5: Web API Development ✅ Complete
 
-## Day 1: Understanding .NET Core and CLR
+This week contains **1 comprehensive Web API project** that demonstrates modern ASP.NET Core development practices.
 
-### Learning Objectives
+## Sample Project Overview
 
-- Understand the .NET ecosystem (.NET Framework vs .NET Core vs .NET 8)
-- Learn about the Common Language Runtime (CLR) and its role
-- Explore the .NET Standard and cross-platform capabilities
+### BasicWebAPI - Complete REST API Implementation
+**Location**: `Week5/BasicWebAPI/`
 
-### Resources
+**Key Features**:
+- **Full CRUD Operations**: Create, Read, Update, Delete for Products and Users
+- **ASP.NET Core Web API**: Modern web API framework with .NET 8
+- **Swagger/OpenAPI Integration**: Interactive API documentation and testing
+- **Data Validation**: Model validation with DataAnnotations and custom validators  
+- **Error Handling**: Global exception handling and consistent error responses
+- **Pagination**: Efficient data pagination for large datasets
+- **Sorting and Filtering**: Advanced query capabilities
+- **Dependency Injection**: Service container and IoC patterns
+- **Repository Pattern**: Data access abstraction layer
+- **Response Formatting**: Consistent API response structure
+- **HTTP Status Codes**: Proper REST API status code usage
+- **CORS Configuration**: Cross-origin resource sharing setup
+- **Health Checks**: API health monitoring endpoints
+- **Logging**: Structured logging with built-in .NET logging
 
-- [Introduction to .NET](https://docs.microsoft.com/en-us/dotnet/core/introduction)
-- [.NET Fundamentals](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
-- [Common Language Runtime (CLR) Overview](https://docs.microsoft.com/en-us/dotnet/standard/clr)
-- [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
+**API Endpoints**:
+- `GET /api/products` - List products with pagination and filtering
+- `GET /api/products/{id}` - Get product by ID
+- `POST /api/products` - Create new product
+- `PUT /api/products/{id}` - Update existing product
+- `DELETE /api/products/{id}` - Delete product
+- `GET /api/users` - List users with pagination
+- `POST /api/users` - Create new user
+- `GET /health` - Health check endpoint
 
-### Hands-on Tasks
+**Run**: `cd Week5/BasicWebAPI && dotnet run`
 
-1. .NET Exploration:
-   - Create projects using different .NET versions
-   - Compare project structures and capabilities
-   - Explore the SDK tools using the dotnet CLI
-   - Understand target frameworks and their implications
+**Access Swagger UI**: Navigate to `https://localhost:7xxx/swagger` after running
 
-2. Cross-Platform Development:
-   - Create a simple console application that:
-     - Works across different operating systems
-     - Uses platform-specific code when needed
-     - Implements proper configuration for cross-platform deployment
+## Learning Objectives Covered
+
+✅ **ASP.NET Core Web API**: Understanding modern web API development  
+✅ **RESTful Services**: Implementing REST architectural principles  
+✅ **HTTP Methods**: Proper usage of GET, POST, PUT, DELETE  
+✅ **Routing**: Attribute-based routing and route templates  
+✅ **Model Binding**: Request data binding and validation  
+✅ **Dependency Injection**: Service registration and IoC container  
+✅ **OpenAPI/Swagger**: API documentation and testing tools  
+✅ **Error Handling**: Global exception handling and error responses  
+✅ **Data Validation**: Input validation and business rule enforcement  
+✅ **Repository Pattern**: Data access layer abstraction  
+✅ **CORS**: Cross-origin resource sharing configuration  
+✅ **Health Checks**: API monitoring and diagnostics
 
 3. .NET CLI Exercise:
    - Practice using the dotnet CLI to:

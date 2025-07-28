@@ -1,33 +1,52 @@
-# Week 4: Advanced C# Features
+# Week 4: Advanced C# Features ✅ Complete
 
-## Day 1: LINQ and Lambda Expressions
+This week contains **2 advanced sample projects** that demonstrate modern C# programming concepts and patterns.
 
-### Learning Objectives
+## Sample Projects Overview
 
-- Understand LINQ (Language Integrated Query) fundamentals
-- Learn about lambda expressions and their syntax
-- Practice writing queries to manipulate data collections
+### 1. AsyncProgrammingDemo - Modern Asynchronous Programming
+**Location**: `Week4/AsyncProgrammingDemo/`
 
-### Resources
+**Key Features**:
+- **Async/Await Patterns**: Complete implementation of asynchronous operations
+- **HTTP Client Operations**: Web scraping and API calls with async patterns
+- **File I/O Operations**: Asynchronous file reading and writing
+- **Producer-Consumer Pattern**: Queue-based async processing
+- **Cancellation Tokens**: Graceful cancellation of long-running operations
+- **Task Parallel Library**: Concurrent execution and coordination
+- **Error Handling**: Exception management in async contexts
+- **Performance Analysis**: Timing comparisons between sync and async operations
+- **Interactive Examples**: Menu-driven exploration of async concepts
 
-- [LINQ in C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
-- [Lambda Expressions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions)
-- [LINQ Query Syntax](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)
+**Run**: `cd Week4/AsyncProgrammingDemo && dotnet run`
 
-### Hands-on Tasks
+### 2. LambdaExpressionsDemo - Functional Programming in C#
+**Location**: `Week4/LambdaExpressionsDemo/`
 
-1. LINQ Basics Exercise:
-   - Create a console application that demonstrates:
-     - LINQ query syntax vs. method syntax
-     - Basic operations (where, select, orderby)
-     - Filtering, sorting, and projecting data
-     - Working with different data sources
+**Key Features**:
+- **Lambda Expression Syntax**: From simple to complex lambda expressions
+- **Delegates and Func/Action**: Understanding functional programming concepts
+- **Closures**: Variable capture and scope in lambda expressions
+- **Expression Trees**: Compile-time code generation and analysis
+- **LINQ Integration**: Advanced LINQ operations with lambda expressions
+- **Performance Comparison**: Lambda vs traditional methods performance analysis
+- **Practical Applications**: Real-world scenarios using functional programming
+- **Custom Delegates**: Creating and using custom delegate types
+- **Interactive Demonstrations**: Hands-on examples with timing analysis
 
-2. Advanced LINQ Operations:
-   - Create a program that uses:
-     - Grouping and aggregation functions
-     - Joining multiple data sources
-     - Set operations (union, intersection)
+**Run**: `cd Week4/LambdaExpressionsDemo && dotnet run`
+
+## Learning Objectives Covered
+
+✅ **Asynchronous Programming**: Understanding async/await, Task, and parallel processing  
+✅ **Lambda Expressions**: Functional programming concepts and syntax  
+✅ **Delegates**: Function pointers and callback mechanisms  
+✅ **Closures**: Variable capture and lexical scoping  
+✅ **Expression Trees**: Compile-time code generation and analysis  
+✅ **Cancellation Tokens**: Graceful cancellation of operations  
+✅ **Producer-Consumer Patterns**: Queue-based asynchronous processing  
+✅ **Performance Optimization**: Async vs sync performance characteristics  
+✅ **Error Handling**: Exception management in async and functional contexts
      - Custom sorting and filtering with lambda expressions
 
 3. Practical LINQ Project:

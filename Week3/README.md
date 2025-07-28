@@ -1,33 +1,53 @@
-# Week 3: Working with Data
+# Week 3: Collections and Data Structures in C# ✅ Complete
 
-## Day 1: Collections and Generics
+This week contains **2 comprehensive sample projects** that demonstrate advanced data manipulation and LINQ operations in C#.
 
-### Learning Objectives
+## Sample Projects Overview
 
-- Understand different collection types in C#
-- Learn how to use generics for type-safe programming
-- Practice manipulating data in collections
+### 1. CollectionsDemo - Complete Collection Types Showcase
+**Location**: `Week3/CollectionsDemo/`
 
-### Resources
+**Key Features**:
+- **Arrays**: Fixed-size collections with performance analysis
+- **Lists**: Dynamic collections with CRUD operations
+- **Dictionaries**: Key-value pair storage and lookups
+- **HashSets**: Unique value collections and set operations
+- **Queues**: First-In-First-Out (FIFO) data structures
+- **Stacks**: Last-In-First-Out (LIFO) data structures
+- **Custom Generics**: Implementation of generic Stack<T> and Queue<T>
+- **Performance Comparisons**: Timing analysis of different operations
+- **Interactive Menu**: Menu-driven exploration of all collection types
 
-- [Collections in C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
-- [Generics in C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/)
-- [List<T> Class](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)
-- [Dictionary<TKey,TValue> Class](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2)
+**Run**: `cd Week3/CollectionsDemo && dotnet run`
 
-### Hands-on Tasks
+### 2. LinqDemo - Comprehensive LINQ Operations
+**Location**: `Week3/LinqDemo/`
 
-1. Collection Types Exercise:
-   - Create a console application that demonstrates:
-     - Arrays and their limitations
-     - Lists and their advantages
-     - Dictionaries for key-value pair storage
-     - Sets for unique collections
+**Key Features**:
+- **Real-World Data**: Students, products, and orders datasets
+- **Filtering Operations**: Where clauses with complex conditions
+- **Projection**: Select transformations and anonymous types
+- **Grouping**: Group by operations with aggregations
+- **Joins**: Inner joins between related datasets
+- **Aggregations**: Sum, average, count, min, max operations
+- **Sorting**: OrderBy and ThenBy with multiple criteria
+- **Method Syntax vs Query Syntax**: Comparative examples
+- **Performance Analysis**: Execution time measurements
+- **Interactive Exploration**: Menu-driven LINQ demonstrations
 
-2. Generic Methods and Classes:
-   - Create your own generic class (e.g., a simple Stack<T> or Queue<T>)
-   - Implement generic methods that work with different data types
-   - Demonstrate the benefits of generics over using object type
+**Run**: `cd Week3/LinqDemo && dotnet run`
+
+## Learning Objectives Covered
+
+✅ **Collection Types**: Understanding Arrays, Lists, Dictionaries, Sets, Queues, Stacks  
+✅ **Generics**: Type-safe programming with generic classes and methods  
+✅ **LINQ Fundamentals**: Language-Integrated Query for data manipulation  
+✅ **Data Filtering**: Complex where clauses and conditional logic  
+✅ **Data Projection**: Transforming data with Select operations  
+✅ **Data Grouping**: Organizing data with GroupBy operations  
+✅ **Data Joining**: Combining datasets with Join operations  
+✅ **Performance Analysis**: Understanding collection performance characteristics  
+✅ **Real-World Applications**: Student management and e-commerce scenarios
 
 3. Collection Manipulation:
    - Create a program that:

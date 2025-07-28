@@ -1,23 +1,64 @@
-# Week 2: Object-Oriented Programming in C#
+# Week 2: Object-Oriented Programming in C# ✅ Complete
 
-## Day 1: Classes and Objects
+This week contains **4 fully implemented sample projects** that demonstrate comprehensive object-oriented programming concepts in C#.
 
-### Learning Objectives
+## Sample Projects Overview
 
-- Understand the fundamentals of Object-Oriented Programming
-- Learn how to create and use classes and objects in C#
-- Implement encapsulation, inheritance, and polymorphism
+### 1. ClassBasics - Foundation OOP Concepts
+**Location**: `Week2/ClassBasics/`
+**Key Features**:
+- Basic class creation and object instantiation
+- Properties with getters and setters
+- Constructor overloading
+- Method implementation
+- Encapsulation principles
 
-### Resources
+**Run**: `cd Week2/ClassBasics && dotnet run`
 
-- [Classes and Objects in C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/)
-- [Object-Oriented Programming in C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
-- [Inheritance in C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/inheritance)
+### 2. InheritanceDemo - Hierarchy and Polymorphism
+**Location**: `Week2/InheritanceDemo/`
+**Key Features**:
+- Person/Student/Teacher class hierarchy
+- Method overriding and virtual methods
+- Polymorphism demonstrations
+- Base class constructors
+- Interactive examples
 
-### Hands-on Tasks
+**Run**: `cd Week2/InheritanceDemo && dotnet run`
 
-1. Create a simple class hierarchy:
-   - Design a `Person` base class with properties like Name, Age, and methods like Introduce()
+### 3. InterfacesAndAbstracts - Advanced OOP Patterns
+**Location**: `Week2/InterfacesAndAbstracts/`
+**Key Features**:
+- Interface implementations (IShape, IDrawable)
+- Abstract classes and methods (Animal hierarchy)
+- Multiple inheritance through interfaces
+- Contract-based programming
+- Real-world design patterns
+
+**Run**: `cd Week2/InterfacesAndAbstracts && dotnet run`
+
+### 4. ExceptionHandlingDemo - Banking System with Error Management
+**Location**: `Week2/ExceptionHandlingDemo/`
+**Key Features**:
+- Complete banking system simulation
+- Custom exception classes
+- Try-catch-finally blocks
+- Exception propagation
+- Logging and error reporting
+- Input validation and business rules
+
+**Run**: `cd Week2/ExceptionHandlingDemo && dotnet run`
+
+## Learning Objectives Covered
+
+✅ **Classes and Objects**: Understanding the fundamentals of OOP  
+✅ **Encapsulation**: Data hiding and property implementation  
+✅ **Inheritance**: Class hierarchies and code reuse  
+✅ **Polymorphism**: Method overriding and virtual methods  
+✅ **Interfaces**: Contract-based programming  
+✅ **Abstract Classes**: Template patterns for derived classes  
+✅ **Exception Handling**: Robust error management and recovery  
+✅ **Real-World Applications**: Banking system and shape calculations
    - Create derived classes like `Student` and `Teacher` that inherit from Person
    - Add unique properties and methods to each derived class
    - Override methods to demonstrate polymorphism

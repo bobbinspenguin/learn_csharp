@@ -1,42 +1,58 @@
-# Week 6: Data Access and Entity Framework Core
+# Week 6: Entity Framework and Database Integration ✅ Complete
 
-## Day 1: Entity Framework Core
+This week contains **1 comprehensive database project** that demonstrates Entity Framework Core with complete CRUD operations and advanced database concepts.
 
-### Learning Objectives
+## Sample Project Overview
 
-- Understand Object-Relational Mapping (ORM) concepts
-- Learn Entity Framework Core fundamentals
-- Practice creating and querying databases using EF Core
+### EntityFrameworkDemo - Complete School Management System
+**Location**: `Week6/EntityFrameworkDemo/`
 
-### Resources
+**Key Features**:
+- **Entity Framework Core 8.0**: Latest ORM framework with .NET 8
+- **SQLite Database**: Lightweight database for development and learning
+- **Code-First Approach**: Database creation from C# model classes
+- **Database Migrations**: Version control for database schema changes
+- **Complete Domain Model**: Students, Courses, Enrollments, Teachers, Departments
+- **Relationships**: One-to-Many, Many-to-Many, and Foreign Key relationships
+- **CRUD Operations**: Full Create, Read, Update, Delete functionality
+- **LINQ Integration**: Advanced querying with Entity Framework LINQ provider
+- **Navigation Properties**: Efficient related data loading
+- **Database Seeding**: Initial data population for testing
+- **Connection String Management**: Database configuration and connection handling
+- **Interactive Console Interface**: Menu-driven database operations
+- **Data Validation**: Model validation and business rule enforcement
+- **Performance Optimization**: Efficient queries and data loading strategies
 
-- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
-- [Getting Started with EF Core](https://docs.microsoft.com/en-us/ef/core/get-started/)
-- [DbContext Class](https://docs.microsoft.com/en-us/ef/core/dbcontext-configuration/)
-- [Migrations in EF Core](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/)
+**Domain Models**:
+- **Student**: ID, Name, Email, EnrollmentDate, Enrollments
+- **Course**: ID, Title, Credits, DepartmentId, Department, Enrollments
+- **Enrollment**: StudentId, CourseId, EnrollmentDate, Grade
+- **Teacher**: ID, Name, Email, DepartmentId, Department
+- **Department**: ID, Name, Budget, Teachers, Courses
 
-### Hands-on Tasks
+**Operations Available**:
+- Add/Edit/Delete Students, Courses, Teachers, Departments
+- Enroll students in courses
+- View enrollment reports and statistics
+- Search and filter data across all entities
+- Generate academic reports
 
-1. EF Core Basics:
-   - Create a console application that:
-     - Sets up Entity Framework Core with SQLite or SQL Server
-     - Defines entity classes and DbContext
-     - Implements code-first approach with migrations
-     - Performs basic CRUD operations
+**Run**: `cd Week6/EntityFrameworkDemo && dotnet run`
 
-2. Data Relationships:
-   - Create a project that demonstrates:
-     - One-to-many relationships
-     - Many-to-many relationships
-     - Navigation properties
-     - Eager loading vs. lazy loading
+## Learning Objectives Covered
 
-3. Advanced EF Core Features:
-   - Create an application that uses:
-     - Complex queries with LINQ and EF Core
-     - Raw SQL queries when needed
-     - Transactions and concurrency handling
-     - Performance optimization techniques
+✅ **Entity Framework Core**: Understanding modern ORM frameworks  
+✅ **Code-First Development**: Creating databases from C# models  
+✅ **Database Migrations**: Managing schema changes over time  
+✅ **Relationships**: Implementing foreign keys and navigation properties  
+✅ **LINQ with EF**: Advanced querying capabilities  
+✅ **DbContext**: Database context configuration and usage  
+✅ **Connection Strings**: Database connection management  
+✅ **Data Seeding**: Populating databases with initial data  
+✅ **Model Validation**: Ensuring data integrity and business rules  
+✅ **Navigation Properties**: Efficient related data access  
+✅ **Database Design**: Relational database design principles  
+✅ **Performance**: Query optimization and efficient data loading
 
 ## Day 2: Working with APIs and Data
 

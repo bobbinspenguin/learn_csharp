@@ -1,52 +1,67 @@
-# Week 7: Security and Advanced API Features
+# Week 7: Security and Authentication ✅ Complete
 
-## Day 1: Authentication and Authorization
+This week contains **1 comprehensive security-focused project** that demonstrates enterprise-level authentication and security practices.
 
-### Learning Objectives
+## Sample Project Overview
 
-- Understand authentication and authorization concepts
-- Learn how to secure APIs with tokens and OAuth
-- Implement user management in .NET applications
+### SecureAuthDemo - Complete Authentication and Security System
+**Location**: `Week7/SecureAuthDemo/`
 
-### Resources
+**Key Features**:
+- **JWT Authentication**: JSON Web Token implementation with refresh tokens
+- **Role-Based Authorization**: Admin, Manager, User roles with permissions
+- **Password Security**: BCrypt hashing with salt for secure password storage
+- **User Management**: Complete user registration, login, and profile management
+- **Audit Logging**: Comprehensive audit trail for all system activities
+- **Rate Limiting**: API rate limiting to prevent abuse and DDoS attacks
+- **Security Headers**: HTTPS, HSTS, CSP, and other security headers
+- **Token Management**: JWT token generation, validation, and refresh
+- **Password Policies**: Enforced password complexity and expiration
+- **Account Lockout**: Protection against brute force attacks
+- **Security Middleware**: Custom security middleware for request validation
+- **CORS Configuration**: Secure cross-origin resource sharing
+- **Input Validation**: Comprehensive input sanitization and validation
+- **SQL Injection Prevention**: Parameterized queries and EF Core protection
+- **XSS Protection**: Cross-site scripting prevention measures
 
-- [Authentication in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/)
-- [JWT Authentication in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/jwt-authn)
-- [Identity in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity)
-- [OAuth 2.0 and OpenID Connect](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow)
+**Security Features**:
+- **Registration**: Secure user registration with email validation
+- **Login**: Multi-factor authentication support
+- **Password Reset**: Secure password reset with time-limited tokens
+- **Profile Management**: Secure profile updates with authorization
+- **Admin Dashboard**: Administrative functions with proper authorization
+- **Audit Reports**: Security audit reporting and monitoring
+- **Token Blacklisting**: JWT token revocation support
 
-### Hands-on Tasks
+**API Endpoints**:
+- `POST /api/auth/register` - User registration
+- `POST /api/auth/login` - User login with JWT token
+- `POST /api/auth/refresh` - Token refresh
+- `POST /api/auth/logout` - Secure logout
+- `GET /api/auth/profile` - Get user profile (authenticated)
+- `PUT /api/auth/profile` - Update user profile (authenticated)
+- `GET /api/admin/users` - Admin: List all users
+- `GET /api/admin/audit` - Admin: View audit logs
+- `POST /api/admin/roles` - Admin: Manage user roles
 
-1. JWT Authentication:
-   - Create an API that:
-     - Implements JWT token-based authentication
-     - Has user registration and login endpoints
-     - Secures specific endpoints with authorization
-     - Handles token validation and refresh
+**Run**: `cd Week7/SecureAuthDemo && dotnet run`
 
-2. Identity Implementation:
-   - Create a project that:
-     - Uses ASP.NET Core Identity for user management
-     - Implements role-based authorization
-     - Handles user profiles and claims
-     - Provides proper password policies and account management
+**Access Swagger UI**: Navigate to `https://localhost:7xxx/swagger` for API testing
 
-3. OAuth Integration:
-   - Create an application that:
-     - Integrates with external OAuth providers (e.g., Microsoft, Google)
-     - Handles OAuth flows properly
-     - Manages user information from external providers
-     - Implements proper state management and security
+## Learning Objectives Covered
 
-## Day 2: Advanced API Concepts
-
-### Learning Objectives
-
-- Learn about API versioning and documentation
-- Understand dependency injection and its benefits
-- Implement advanced error handling and logging
-
-### Resources
+✅ **JWT Authentication**: Understanding token-based authentication  
+✅ **Authorization**: Role-based and policy-based authorization  
+✅ **Password Security**: Secure password hashing and storage  
+✅ **Security Headers**: Implementing security best practices  
+✅ **Rate Limiting**: Protecting against abuse and attacks  
+✅ **Audit Logging**: Tracking system activities and security events  
+✅ **Input Validation**: Preventing injection attacks and XSS  
+✅ **HTTPS/TLS**: Secure communication protocols  
+✅ **Token Management**: JWT lifecycle and refresh strategies  
+✅ **Account Security**: Lockout policies and brute force protection  
+✅ **OWASP Guidelines**: Following web application security standards  
+✅ **Security Middleware**: Custom security implementations
 
 - [API Versioning in ASP.NET Core](https://github.com/Microsoft/aspnet-api-versioning)
 - [Swagger/OpenAPI Documentation](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger)
